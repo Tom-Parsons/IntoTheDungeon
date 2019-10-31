@@ -218,7 +218,6 @@ ModelImporter:
     7400032: Attack_Slam_Fall
     7400034: Attack_Slam_Contact
     7400036: Dash
-    7400038: Death
     9500000: //RootNode
     13700000: 2_LOW_2_LOW
     2186277476908879412: ImportLogs
@@ -399,21 +398,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.11806543
-        functionName: AnimationEvent
-        data: Clop
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
-      - time: 0.6529161
-        functionName: AnimationEvent
-        data: Clop
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -644,14 +629,7 @@ ModelImporter:
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events:
-      - time: 0.80846775
-        functionName: AnimationEvent
-        data: StoppedCasting
-        objectReferenceParameter: {instanceID: 0}
-        floatParameter: 0
-        intParameter: 0
-        messageOptions: 0
+      events: []
       transformMask: []
       maskType: 3
       maskSource: {instanceID: 0}
@@ -716,35 +694,7 @@ ModelImporter:
       name: Dash
       takeName: Dash.001
       firstFrame: 0
-      lastFrame: 38.5
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
-    - serializedVersion: 16
-      name: Death
-      takeName: Death
-      firstFrame: 0
-      lastFrame: 50
+      lastFrame: 38
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
